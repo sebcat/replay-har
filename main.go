@@ -36,6 +36,7 @@ func main() {
 				log.Fatal(err)
 			} else {
 				io.Copy(ioutil.Discard, resp.Body)
+				resp.Body.Close()
 				log.Println(r.Method, r.URL, len(r.PostData.Text), resp.Status, dur)
 			}
 		}
