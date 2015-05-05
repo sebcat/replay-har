@@ -16,7 +16,7 @@
 // ```
 // mkdir $HOME/go-code
 // export GOPATH=$HOME/go-code PATH=$GOPATH/bin:$PATH
-// go get hithub.com/sebcat/replay-har
+// go get github.com/sebcat/replay-har
 // replay-har <har-file>
 //
 // ```
