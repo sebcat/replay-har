@@ -1,7 +1,7 @@
 replay-har
 ==========
 
-Application demonstrating the use of github.com/sebcat/har
+Application demonstrating the use of [github.com/sebcat/har](https://github.com/sebcat/har)
 
 Loads a [HAR](http://en.wikipedia.org/wiki/.har) from file and retransmits
 the HTTP requests from it sequentially, printing status to stderr. Dies if
